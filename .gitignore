@@ -173,6 +173,6 @@ cython_debug/
 test_results/
 results/
 checkpoints/
-data/
+# data/
 scratch/
 reports/
