@@ -35,7 +35,8 @@ prompt_weight=0.1
 text_dropout=0.2
 dropout=0.1
 llm_emb_size=768
-
+d_model=512
+d_ff=1024
 # llm_path=/home/s225250685/workspace/Huggingface/google-bert/bert-base-uncased
 llm_path=/scratch/s225250685/Huggingface/openai-community/gpt2
 # llm_path=/home/user11/hiepnh/Huggingface/google-bert/bert-base-uncased
@@ -94,8 +95,6 @@ do
         --d_model $d_model \
         --d_ff $d_ff \
         --llm_path $llm_path \
-        --feat_start_id $feat_start_id \
-        --feat_end_id $feat_end_id \
         --mm_hidden_size $mm_hidden_size \
         --mm_emb_size $mm_emb_size \
         --features S \
