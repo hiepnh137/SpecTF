@@ -1,4 +1,5 @@
-# Spectral Text Fusion: A Frequency-Aware Approach to Multimodal Time-Series Forecasting
+# (AISTATS 2026) Spectral Text Fusion: A Frequency-Aware Approach to Multimodal Time-Series Forecasting
+Official implementation of the paper [Spectral Text Fusion: A Frequency-Aware Approach to Multimodal Time-Series Forecasting](https://arxiv.org/abs/2602.01588).
 
 ## Environment Setup
 
